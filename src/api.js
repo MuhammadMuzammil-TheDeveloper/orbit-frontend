@@ -1,4 +1,4 @@
-const API_URL = import.meta.env.VITE_API_URL || 'https://orbit-backend-o1mp78oss-muzans786-5613s-projects.vercel.app/api/'
+const API_URL = import.meta.env.VITE_API_URL || 'https://orbit-backend-omega.vercel.app/api'
 
 async function request (path, options = {}) {
   const response = await fetch(`${API_URL}${path}`, {
